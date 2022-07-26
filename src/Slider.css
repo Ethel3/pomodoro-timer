@@ -8,7 +8,7 @@
     cursor: pointer;
     width: 40px;
     height:40px;
-    border-raduis: 50px;
+    border-radius: 20px;
 }
 .slider.red{
     border: 2px solid red;
