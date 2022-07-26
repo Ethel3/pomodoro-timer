@@ -1,6 +1,9 @@
 function Settings(){
     return(
-        <div>Settings</div>
+        <div style={{textAlign:'left'}}>
+            <label>Work Minute:</label>
+            <label>Break Minute:</label>
+        </div>
     )
 }
 
