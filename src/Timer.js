@@ -1,5 +1,6 @@
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import PlayButton from "./PlayButton";
 
 const red = "#f54e4e";
 const blue = "#0000ff";
@@ -18,8 +19,9 @@ function Timer() {
           trailColor: "rgba(225, 225, 225, .2)",
         })}
       />
-      <div>
-        
+      <div style={{marginTop: '20px'}}>
+        <PlayButton />
+
       </div>
     </div>
   );
