@@ -18,7 +18,9 @@ function Timer() {
           trailColor: "rgba(225, 225, 225, .2)",
         })}
       />
-      <div></div>
+      <div>
+        
+      </div>
     </div>
   );
 }
