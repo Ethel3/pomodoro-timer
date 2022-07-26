@@ -1,14 +1,18 @@
-body{
+:root {
+  --red: "#f54e4e";
+  --blue: "#0000ff";
+}
+body {
   background: #30384b;
   color: #eee;
 }
-main{
+main {
   padding-top: 50px;
   max-width: 340px;
   margin: 0 auto;
   text-align: center;
 }
-button{
+button {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.8);
   border: 0;
@@ -17,7 +21,7 @@ button{
   cursor: pointer;
 }
 
-button.with-text{
+button.with-text {
   width: auto;
   background: rgba(225, 225, 225, 0.1);
   border-radius: 10px;
@@ -25,11 +29,13 @@ button.with-text{
   font-size: 1.4rem;
   line-height: 36px;
 }
-button.with-text svg{
+button.with-text svg {
   width: 36px;
   float: left;
   margin-right: 5px;
 }
-label{
+label {
   display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
